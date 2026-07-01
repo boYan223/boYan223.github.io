@@ -1,1 +1,14 @@
+/* 使用更柔和的字体 */
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
+}
 
+/* 让正文区域更宽一点 */
+.md-grid {
+  max-width: 900px;
+}
+
+/* 自定义链接悬停效果 */
+.md-content a:hover {
+  text-decoration: underline wavy;
+}
